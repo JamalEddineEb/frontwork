@@ -14,5 +14,6 @@ export default defineConfig({
         changeOrigin: true,
       },
     },
+    allowedHosts: ["0155c4dd-28f9-41c8-b0d3-a0249cc3be25-00-zcb5rym284r9.worf.replit.dev"],
   },
 });
