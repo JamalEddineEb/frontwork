@@ -1,0 +1,78 @@
+
+> build
+> react-router build
+
+vite v7.2.2 building client environment for production...
+transforming...
+✓ 81 modules transformed.
+✗ Build failed in 1.71s
+[@tailwindcss/vite:generate:build] Cannot apply unknown utility class `bg-background`
+file: /home/jamal/projects/enter/entervio/front/app/app.css
+    at onInvalidCandidate (file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:21:1511)
+    at Ae (file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:16:36364)
+    at file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:21:355
+    at hr (file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:3:1718)
+    at I (file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:3:1377)
+    at xe (file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:21:172)
+    at zi (file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:38:294)
+    at Ba (file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:38:631)
+    at Hu (file:///home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/dist/chunk-MEY3PWYT.mjs:38:1406)
+    at nu (file:///home/jamal/projects/enter/entervio/front/node_modules/@tailwindcss/node/dist/index.mjs:10:3433) {
+  code: 'PLUGIN_ERROR',
+  plugin: '@tailwindcss/vite:generate:build',
+  hook: 'transform',
+  id: '/home/jamal/projects/enter/entervio/front/app/app.css',
+  watchFiles: [
+    '/home/jamal/projects/enter/entervio/front/app/routes/login.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/root.tsx',
+    '/home/jamal/projects/enter/entervio/front/node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/signup.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/resume.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/protected.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/_index.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/setup.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/account.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/interviews.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/interviews._index.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/InterviewFeedback.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/interview.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/feedback.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/jobs/layout.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/routes/jobs/search.tsx',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react/index.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react/jsx-runtime.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react-dom/client.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react-router/dist/development/dom-export.mjs',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react/cjs/react.production.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react/cjs/react-jsx-runtime.production.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react-dom/cjs/react-dom-client.production.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react-router/dist/development/chunk-G3INQAYP.mjs',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react-dom/index.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react-router/dist/development/chunk-4WY6JWTD.mjs',
+    '/home/jamal/projects/enter/entervio/front/package.json',
+    '/home/jamal/projects/enter/entervio/front/node_modules/scheduler/index.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react-dom/cjs/react-dom.production.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/react-router/node_modules/cookie/dist/index.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/set-cookie-parser/lib/set-cookie.js',
+    '/home/jamal/projects/enter/entervio/front/node_modules/scheduler/cjs/scheduler.production.js',
+    '/home/jamal/projects/enter/entervio/front/app/context/AuthContext.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/components/ui/card.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/components/ui/button.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/components/FeedbackContent.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/services/usefeedbackstore.ts',
+    '/home/jamal/projects/enter/entervio/front/app/lib/utils.ts',
+    '/home/jamal/projects/enter/entervio/front/app/components/ui/badge.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/services/interview-list-store.ts',
+    '/home/jamal/projects/enter/entervio/front/app/lib/api.ts',
+    '/home/jamal/projects/enter/entervio/front/app/components/ui/input.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/services/usesetupstore.ts',
+    '/home/jamal/projects/enter/entervio/front/app/components/ui/label.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/components/ui/alert.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/types/interview.ts',
+    '/home/jamal/projects/enter/entervio/front/app/services/useinterviewstore.ts',
+    '/home/jamal/projects/enter/entervio/front/app/app.css',
+    '/home/jamal/projects/enter/entervio/front/node_modules/tailwindcss/index.css',
+    '/home/jamal/projects/enter/entervio/front/app/components/layout/Layout.tsx',
+    '/home/jamal/projects/enter/entervio/front/app/lib/supabaseClient.ts'
+  ]
+}
